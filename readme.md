@@ -11,7 +11,8 @@ The outcome would help me on deciding if this setup would be a good fit for a Un
 ## Running the project
 
 1. Clone the repository
-2. Startup both projects (server first, client after)
+2. Startup both projects (server first, client after)  
+   :information_source: Tip: if you are using Rider, it should automatically load a multi launch configuration in `.run` folder that runs the projects in the correct order with one click 
 3. Make a GET request to the server `curl http://localhost:9000/api/values`
 
 ![image](demo.png)
